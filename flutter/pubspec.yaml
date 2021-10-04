@@ -1,0 +1,65 @@
+name: starter_kit
+description: A boilerplate Flutter project for initial.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  equatable: ^2.0.0
+  json_annotation: ^4.0.1
+  fluttertoast: ^8.0.6
+  i18n_extension: ^4.0.3
+  animations: ^2.0.0
+  shared_preferences: ^2.0.5
+  font_awesome_flutter: ^9.0.0
+  flutter_svg: ^0.22.0
+  flutter_bloc: ^7.0.0
+  flutter_modular: ^3.1.1
+  dio: ^4.0.0
+  flutter_form_builder: ^6.0.0
+  reorderables: ^0.4.1
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/
+    - assets/images/login/
+    - assets/images/home/
+
+
+  fonts:
+    - family: SF-Pro
+      fonts:
+        - asset: assets/fonts/SF-Pro.ttf
+        - asset: assets/fonts/SF-Pro-Italic.ttf
+          style: italic
+
+    - family: Quicksand
+      fonts:
+        - asset: assets/fonts/Quicksand-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Quicksand-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Quicksand-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Quicksand-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Quicksand-Bold.ttf
+          weight: 700

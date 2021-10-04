@@ -1,0 +1,913 @@
+DEBUG 2021-10-05 10:49:41,463 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2021-10-05 10:49:41,868 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2021-10-05 10:49:41,881 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LGarden.Web.Host.Startup.LGardenWebHostModule, LGarden.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-10-05 10:49:41,883 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LGarden.LGardenWebCoreModule, LGarden.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-10-05 10:49:41,883 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LGarden.LGardenApplicationModule, LGarden.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-10-05 10:49:41,884 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LGarden.LGardenCoreModule, LGarden.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-10-05 10:49:41,884 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-10-05 10:49:41,884 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-10-05 10:49:41,885 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-10-05 10:49:41,885 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-10-05 10:49:41,885 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LGarden.EntityFrameworkCore.LGardenEntityFrameworkModule, LGarden.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-10-05 10:49:41,886 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-10-05 10:49:41,886 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-10-05 10:49:41,886 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-10-05 10:49:41,886 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-10-05 10:49:41,886 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-10-05 10:49:41,886 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-10-05 10:49:41,888 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2021-10-05 10:49:42,113 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-10-05 10:49:42,113 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-10-05 10:49:42,113 [1    ] o.Configuration.LanguageManagementConfig - Converted LGarden (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-10-05 10:49:42,113 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-10-05 10:49:42,577 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: LGarden.EntityFrameworkCore.LGardenDbContext, LGarden.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-10-05 10:49:43,516 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2021-10-05 10:49:43,593 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2021-10-05 10:49:43,604 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2021-10-05 10:49:43,609 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: LGarden
+DEBUG 2021-10-05 10:49:43,614 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2021-10-05 10:49:43,844 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2021-10-05 10:49:43,996 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[LGarden.MultiTenancy.Tenant, LGarden.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[LGarden.Authorization.Users.User, LGarden.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2021-10-05 10:49:44,043 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2021-10-05 10:49:44,043 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LGarden.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2021-10-05 10:49:44,048 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LGarden.Users.Dto.CreateUserDto
+DEBUG 2021-10-05 10:49:44,048 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LGarden.Users.Dto.UserDto
+DEBUG 2021-10-05 10:49:44,049 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LGarden.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2021-10-05 10:49:44,049 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LGarden.Sessions.Dto.UserLoginInfoDto
+DEBUG 2021-10-05 10:49:44,049 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LGarden.Roles.Dto.PermissionDto
+DEBUG 2021-10-05 10:49:44,049 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LGarden.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2021-10-05 10:49:44,049 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LGarden.MultiTenancy.Dto.TenantDto
+DEBUG 2021-10-05 10:50:46,811 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2021-10-05 10:50:46,898 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2021-10-05 10:50:46,915 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LGarden.Web.Host.Startup.LGardenWebHostModule, LGarden.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-10-05 10:50:46,917 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LGarden.LGardenWebCoreModule, LGarden.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-10-05 10:50:46,917 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LGarden.LGardenApplicationModule, LGarden.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-10-05 10:50:46,918 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LGarden.LGardenCoreModule, LGarden.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-10-05 10:50:46,918 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-10-05 10:50:46,918 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-10-05 10:50:46,918 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-10-05 10:50:46,919 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-10-05 10:50:46,919 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LGarden.EntityFrameworkCore.LGardenEntityFrameworkModule, LGarden.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-10-05 10:50:46,919 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-10-05 10:50:46,919 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-10-05 10:50:46,919 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-10-05 10:50:46,920 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-10-05 10:50:46,920 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-10-05 10:50:46,920 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-10-05 10:50:46,922 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2021-10-05 10:50:47,007 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-10-05 10:50:47,007 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-10-05 10:50:47,007 [1    ] o.Configuration.LanguageManagementConfig - Converted LGarden (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-10-05 10:50:47,007 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-10-05 10:50:47,463 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: LGarden.EntityFrameworkCore.LGardenDbContext, LGarden.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-10-05 10:50:48,582 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2021-10-05 10:50:48,631 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2021-10-05 10:50:48,649 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2021-10-05 10:50:48,655 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: LGarden
+DEBUG 2021-10-05 10:50:48,661 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2021-10-05 10:50:48,920 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2021-10-05 10:50:49,089 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[LGarden.MultiTenancy.Tenant, LGarden.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[LGarden.Authorization.Users.User, LGarden.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2021-10-05 10:50:49,145 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2021-10-05 10:50:49,145 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LGarden.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2021-10-05 10:50:49,151 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LGarden.Users.Dto.CreateUserDto
+DEBUG 2021-10-05 10:50:49,151 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LGarden.Users.Dto.UserDto
+DEBUG 2021-10-05 10:50:49,151 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LGarden.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2021-10-05 10:50:49,152 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LGarden.Sessions.Dto.UserLoginInfoDto
+DEBUG 2021-10-05 10:50:49,152 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LGarden.Roles.Dto.PermissionDto
+DEBUG 2021-10-05 10:50:49,152 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LGarden.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2021-10-05 10:50:49,152 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LGarden.MultiTenancy.Dto.TenantDto
+DEBUG 2021-10-05 10:53:00,259 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2021-10-05 10:53:00,274 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2021-10-05 10:53:00,288 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LGarden.Web.Host.Startup.LGardenWebHostModule, LGarden.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-10-05 10:53:00,290 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LGarden.LGardenWebCoreModule, LGarden.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-10-05 10:53:00,290 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LGarden.LGardenApplicationModule, LGarden.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-10-05 10:53:00,290 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LGarden.LGardenCoreModule, LGarden.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-10-05 10:53:00,291 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-10-05 10:53:00,291 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-10-05 10:53:00,291 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-10-05 10:53:00,291 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-10-05 10:53:00,291 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LGarden.EntityFrameworkCore.LGardenEntityFrameworkModule, LGarden.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-10-05 10:53:00,292 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-10-05 10:53:00,292 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-10-05 10:53:00,292 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-10-05 10:53:00,292 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-10-05 10:53:00,292 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-10-05 10:53:00,293 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-10-05 10:53:00,295 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2021-10-05 10:53:00,335 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-10-05 10:53:00,335 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-10-05 10:53:00,335 [1    ] o.Configuration.LanguageManagementConfig - Converted LGarden (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-10-05 10:53:00,335 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-10-05 10:53:00,672 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: LGarden.EntityFrameworkCore.LGardenDbContext, LGarden.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-10-05 10:53:01,038 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2021-10-05 10:53:01,070 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2021-10-05 10:53:01,092 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2021-10-05 10:53:01,105 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: LGarden
+DEBUG 2021-10-05 10:53:01,114 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2021-10-05 10:53:01,194 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2021-10-05 10:53:01,219 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[LGarden.MultiTenancy.Tenant, LGarden.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[LGarden.Authorization.Users.User, LGarden.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2021-10-05 10:53:01,255 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2021-10-05 10:53:01,255 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LGarden.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2021-10-05 10:53:01,260 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LGarden.Users.Dto.CreateUserDto
+DEBUG 2021-10-05 10:53:01,260 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LGarden.Users.Dto.UserDto
+DEBUG 2021-10-05 10:53:01,261 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LGarden.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2021-10-05 10:53:01,261 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LGarden.Sessions.Dto.UserLoginInfoDto
+DEBUG 2021-10-05 10:53:01,261 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LGarden.Roles.Dto.PermissionDto
+DEBUG 2021-10-05 10:53:01,261 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LGarden.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2021-10-05 10:53:01,261 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LGarden.MultiTenancy.Dto.TenantDto
+FATAL 2021-10-05 10:53:03,062 [1    ] Abp.AbpBootstrapper                      - MySql.Data.MySqlClient.MySqlException (0x80004005): Table 'lgardendb.abpeditions' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at MySql.Data.EntityFrameworkCore.Storage.Internal.MySQLExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at LGarden.EntityFrameworkCore.Seed.Host.DefaultEditionCreator.CreateEditions() in C:\Users\manhd\Documents\L-Garden\aspnet-core\src\LGarden.EntityFrameworkCore\EntityFrameworkCore\Seed\Host\DefaultEditionCreator.cs:line 25
+   at LGarden.EntityFrameworkCore.Seed.Host.DefaultEditionCreator.Create() in C:\Users\manhd\Documents\L-Garden\aspnet-core\src\LGarden.EntityFrameworkCore\EntityFrameworkCore\Seed\Host\DefaultEditionCreator.cs:line 20
+   at LGarden.EntityFrameworkCore.Seed.Host.InitialHostDbBuilder.Create() in C:\Users\manhd\Documents\L-Garden\aspnet-core\src\LGarden.EntityFrameworkCore\EntityFrameworkCore\Seed\Host\InitialHostDbBuilder.cs:line 14
+   at LGarden.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(LGardenDbContext context) in C:\Users\manhd\Documents\L-Garden\aspnet-core\src\LGarden.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 25
+   at LGarden.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in C:\Users\manhd\Documents\L-Garden\aspnet-core\src\LGarden.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 41
+   at LGarden.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in C:\Users\manhd\Documents\L-Garden\aspnet-core\src\LGarden.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at LGarden.EntityFrameworkCore.LGardenEntityFrameworkModule.PostInitialize() in C:\Users\manhd\Documents\L-Garden\aspnet-core\src\LGarden.EntityFrameworkCore\EntityFrameworkCore\LGardenEntityFrameworkModule.cs:line 46
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_2(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table 'lgardendb.abpeditions' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at MySql.Data.EntityFrameworkCore.Storage.Internal.MySQLExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at LGarden.EntityFrameworkCore.Seed.Host.DefaultEditionCreator.CreateEditions() in C:\Users\manhd\Documents\L-Garden\aspnet-core\src\LGarden.EntityFrameworkCore\EntityFrameworkCore\Seed\Host\DefaultEditionCreator.cs:line 25
+   at LGarden.EntityFrameworkCore.Seed.Host.DefaultEditionCreator.Create() in C:\Users\manhd\Documents\L-Garden\aspnet-core\src\LGarden.EntityFrameworkCore\EntityFrameworkCore\Seed\Host\DefaultEditionCreator.cs:line 20
+   at LGarden.EntityFrameworkCore.Seed.Host.InitialHostDbBuilder.Create() in C:\Users\manhd\Documents\L-Garden\aspnet-core\src\LGarden.EntityFrameworkCore\EntityFrameworkCore\Seed\Host\InitialHostDbBuilder.cs:line 14
+   at LGarden.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(LGardenDbContext context) in C:\Users\manhd\Documents\L-Garden\aspnet-core\src\LGarden.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 25
+   at LGarden.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in C:\Users\manhd\Documents\L-Garden\aspnet-core\src\LGarden.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 41
+   at LGarden.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in C:\Users\manhd\Documents\L-Garden\aspnet-core\src\LGarden.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at LGarden.EntityFrameworkCore.LGardenEntityFrameworkModule.PostInitialize() in C:\Users\manhd\Documents\L-Garden\aspnet-core\src\LGarden.EntityFrameworkCore\EntityFrameworkCore\LGardenEntityFrameworkModule.cs:line 46
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_2(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+FATAL 2021-10-05 10:53:03,091 [1    ] Microsoft.AspNetCore.Hosting.WebHost     - Application startup exception
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table 'lgardendb.abpeditions' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at MySql.Data.EntityFrameworkCore.Storage.Internal.MySQLExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at LGarden.EntityFrameworkCore.Seed.Host.DefaultEditionCreator.CreateEditions() in C:\Users\manhd\Documents\L-Garden\aspnet-core\src\LGarden.EntityFrameworkCore\EntityFrameworkCore\Seed\Host\DefaultEditionCreator.cs:line 25
+   at LGarden.EntityFrameworkCore.Seed.Host.DefaultEditionCreator.Create() in C:\Users\manhd\Documents\L-Garden\aspnet-core\src\LGarden.EntityFrameworkCore\EntityFrameworkCore\Seed\Host\DefaultEditionCreator.cs:line 20
+   at LGarden.EntityFrameworkCore.Seed.Host.InitialHostDbBuilder.Create() in C:\Users\manhd\Documents\L-Garden\aspnet-core\src\LGarden.EntityFrameworkCore\EntityFrameworkCore\Seed\Host\InitialHostDbBuilder.cs:line 14
+   at LGarden.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(LGardenDbContext context) in C:\Users\manhd\Documents\L-Garden\aspnet-core\src\LGarden.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 25
+   at LGarden.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in C:\Users\manhd\Documents\L-Garden\aspnet-core\src\LGarden.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 41
+   at LGarden.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in C:\Users\manhd\Documents\L-Garden\aspnet-core\src\LGarden.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at LGarden.EntityFrameworkCore.LGardenEntityFrameworkModule.PostInitialize() in C:\Users\manhd\Documents\L-Garden\aspnet-core\src\LGarden.EntityFrameworkCore\EntityFrameworkCore\LGardenEntityFrameworkModule.cs:line 46
+   at Abp.Modules.AbpModuleManager.<>c.<StartModules>b__15_2(AbpModuleInfo module)
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.Modules.AbpModuleManager.StartModules()
+   at Abp.AbpBootstrapper.Initialize()
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.InitializeAbp(IApplicationBuilder app)
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.UseAbp(IApplicationBuilder app, Action`1 optionsAction)
+   at LGarden.Web.Host.Startup.Startup.Configure(IApplicationBuilder app, ILoggerFactory loggerFactory) in C:\Users\manhd\Documents\L-Garden\aspnet-core\src\LGarden.Web.Host\Startup\Startup.cs:line 122
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.Invoke(Object instance, IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConfigureBuilder.<>c__DisplayClass4_0.<Build>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.Configure(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Filters.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.HostingStartup.<>c__DisplayClass1_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISServerSetupFilter.<>c__DisplayClass2_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.WebHost.BuildApplication()
+WARN  2021-10-05 10:53:06,209 [7    ] Abp.BackgroundJobs.BackgroundJobManager  - Abp.AbpException: Unknown filter name: MayHaveTenant. Be sure this filter is registered before.
+   at Abp.Domain.Uow.UnitOfWorkBase.GetFilterIndex(String filterName)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetFilterParameter(String filterName, String parameterName, Object value)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetTenantId(Nullable`1 tenantId, Boolean switchMustHaveTenantEnableDisable)
+   at Abp.Domain.Uow.UnitOfWorkBase.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkManager.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobs(Int32 maxResultCount)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork_callback()
+   at Castle.Proxies.Invocations.BackgroundJobManager_DoWork.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork()
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+Abp.AbpException: Unknown filter name: MayHaveTenant. Be sure this filter is registered before.
+   at Abp.Domain.Uow.UnitOfWorkBase.GetFilterIndex(String filterName)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetFilterParameter(String filterName, String parameterName, Object value)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetTenantId(Nullable`1 tenantId, Boolean switchMustHaveTenantEnableDisable)
+   at Abp.Domain.Uow.UnitOfWorkBase.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkManager.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobs(Int32 maxResultCount)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork_callback()
+   at Castle.Proxies.Invocations.BackgroundJobManager_DoWork.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork()
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+WARN  2021-10-05 10:53:11,236 [7    ] Abp.BackgroundJobs.BackgroundJobManager  - Abp.AbpException: Unknown filter name: MayHaveTenant. Be sure this filter is registered before.
+   at Abp.Domain.Uow.UnitOfWorkBase.GetFilterIndex(String filterName)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetFilterParameter(String filterName, String parameterName, Object value)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetTenantId(Nullable`1 tenantId, Boolean switchMustHaveTenantEnableDisable)
+   at Abp.Domain.Uow.UnitOfWorkBase.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkManager.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobs(Int32 maxResultCount)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork_callback()
+   at Castle.Proxies.Invocations.BackgroundJobManager_DoWork.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork()
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+Abp.AbpException: Unknown filter name: MayHaveTenant. Be sure this filter is registered before.
+   at Abp.Domain.Uow.UnitOfWorkBase.GetFilterIndex(String filterName)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetFilterParameter(String filterName, String parameterName, Object value)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetTenantId(Nullable`1 tenantId, Boolean switchMustHaveTenantEnableDisable)
+   at Abp.Domain.Uow.UnitOfWorkBase.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkManager.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobs(Int32 maxResultCount)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork_callback()
+   at Castle.Proxies.Invocations.BackgroundJobManager_DoWork.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork()
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+WARN  2021-10-05 10:53:16,247 [6    ] Abp.BackgroundJobs.BackgroundJobManager  - Abp.AbpException: Unknown filter name: MayHaveTenant. Be sure this filter is registered before.
+   at Abp.Domain.Uow.UnitOfWorkBase.GetFilterIndex(String filterName)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetFilterParameter(String filterName, String parameterName, Object value)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetTenantId(Nullable`1 tenantId, Boolean switchMustHaveTenantEnableDisable)
+   at Abp.Domain.Uow.UnitOfWorkBase.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkManager.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobs(Int32 maxResultCount)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork_callback()
+   at Castle.Proxies.Invocations.BackgroundJobManager_DoWork.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork()
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+Abp.AbpException: Unknown filter name: MayHaveTenant. Be sure this filter is registered before.
+   at Abp.Domain.Uow.UnitOfWorkBase.GetFilterIndex(String filterName)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetFilterParameter(String filterName, String parameterName, Object value)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetTenantId(Nullable`1 tenantId, Boolean switchMustHaveTenantEnableDisable)
+   at Abp.Domain.Uow.UnitOfWorkBase.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkManager.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobs(Int32 maxResultCount)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork_callback()
+   at Castle.Proxies.Invocations.BackgroundJobManager_DoWork.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork()
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+WARN  2021-10-05 10:53:21,269 [6    ] Abp.BackgroundJobs.BackgroundJobManager  - Abp.AbpException: Unknown filter name: MayHaveTenant. Be sure this filter is registered before.
+   at Abp.Domain.Uow.UnitOfWorkBase.GetFilterIndex(String filterName)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetFilterParameter(String filterName, String parameterName, Object value)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetTenantId(Nullable`1 tenantId, Boolean switchMustHaveTenantEnableDisable)
+   at Abp.Domain.Uow.UnitOfWorkBase.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkManager.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobs(Int32 maxResultCount)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork_callback()
+   at Castle.Proxies.Invocations.BackgroundJobManager_DoWork.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork()
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+Abp.AbpException: Unknown filter name: MayHaveTenant. Be sure this filter is registered before.
+   at Abp.Domain.Uow.UnitOfWorkBase.GetFilterIndex(String filterName)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetFilterParameter(String filterName, String parameterName, Object value)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetTenantId(Nullable`1 tenantId, Boolean switchMustHaveTenantEnableDisable)
+   at Abp.Domain.Uow.UnitOfWorkBase.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkManager.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobs(Int32 maxResultCount)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork_callback()
+   at Castle.Proxies.Invocations.BackgroundJobManager_DoWork.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork()
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+WARN  2021-10-05 10:53:26,284 [11   ] Abp.BackgroundJobs.BackgroundJobManager  - Abp.AbpException: Unknown filter name: MayHaveTenant. Be sure this filter is registered before.
+   at Abp.Domain.Uow.UnitOfWorkBase.GetFilterIndex(String filterName)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetFilterParameter(String filterName, String parameterName, Object value)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetTenantId(Nullable`1 tenantId, Boolean switchMustHaveTenantEnableDisable)
+   at Abp.Domain.Uow.UnitOfWorkBase.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkManager.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobs(Int32 maxResultCount)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork_callback()
+   at Castle.Proxies.Invocations.BackgroundJobManager_DoWork.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork()
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+Abp.AbpException: Unknown filter name: MayHaveTenant. Be sure this filter is registered before.
+   at Abp.Domain.Uow.UnitOfWorkBase.GetFilterIndex(String filterName)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetFilterParameter(String filterName, String parameterName, Object value)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetTenantId(Nullable`1 tenantId, Boolean switchMustHaveTenantEnableDisable)
+   at Abp.Domain.Uow.UnitOfWorkBase.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkManager.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobs(Int32 maxResultCount)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork_callback()
+   at Castle.Proxies.Invocations.BackgroundJobManager_DoWork.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork()
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+WARN  2021-10-05 10:53:31,293 [6    ] Abp.BackgroundJobs.BackgroundJobManager  - Abp.AbpException: Unknown filter name: MayHaveTenant. Be sure this filter is registered before.
+   at Abp.Domain.Uow.UnitOfWorkBase.GetFilterIndex(String filterName)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetFilterParameter(String filterName, String parameterName, Object value)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetTenantId(Nullable`1 tenantId, Boolean switchMustHaveTenantEnableDisable)
+   at Abp.Domain.Uow.UnitOfWorkBase.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkManager.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobs(Int32 maxResultCount)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork_callback()
+   at Castle.Proxies.Invocations.BackgroundJobManager_DoWork.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork()
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+Abp.AbpException: Unknown filter name: MayHaveTenant. Be sure this filter is registered before.
+   at Abp.Domain.Uow.UnitOfWorkBase.GetFilterIndex(String filterName)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetFilterParameter(String filterName, String parameterName, Object value)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetTenantId(Nullable`1 tenantId, Boolean switchMustHaveTenantEnableDisable)
+   at Abp.Domain.Uow.UnitOfWorkBase.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkManager.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobs(Int32 maxResultCount)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork_callback()
+   at Castle.Proxies.Invocations.BackgroundJobManager_DoWork.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork()
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+WARN  2021-10-05 10:53:36,319 [4    ] Abp.BackgroundJobs.BackgroundJobManager  - Abp.AbpException: Unknown filter name: MayHaveTenant. Be sure this filter is registered before.
+   at Abp.Domain.Uow.UnitOfWorkBase.GetFilterIndex(String filterName)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetFilterParameter(String filterName, String parameterName, Object value)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetTenantId(Nullable`1 tenantId, Boolean switchMustHaveTenantEnableDisable)
+   at Abp.Domain.Uow.UnitOfWorkBase.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkManager.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobs(Int32 maxResultCount)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork_callback()
+   at Castle.Proxies.Invocations.BackgroundJobManager_DoWork.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork()
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+Abp.AbpException: Unknown filter name: MayHaveTenant. Be sure this filter is registered before.
+   at Abp.Domain.Uow.UnitOfWorkBase.GetFilterIndex(String filterName)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetFilterParameter(String filterName, String parameterName, Object value)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetTenantId(Nullable`1 tenantId, Boolean switchMustHaveTenantEnableDisable)
+   at Abp.Domain.Uow.UnitOfWorkBase.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkManager.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobs(Int32 maxResultCount)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork_callback()
+   at Castle.Proxies.Invocations.BackgroundJobManager_DoWork.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork()
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+WARN  2021-10-05 10:53:41,331 [11   ] Abp.BackgroundJobs.BackgroundJobManager  - Abp.AbpException: Unknown filter name: MayHaveTenant. Be sure this filter is registered before.
+   at Abp.Domain.Uow.UnitOfWorkBase.GetFilterIndex(String filterName)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetFilterParameter(String filterName, String parameterName, Object value)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetTenantId(Nullable`1 tenantId, Boolean switchMustHaveTenantEnableDisable)
+   at Abp.Domain.Uow.UnitOfWorkBase.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkManager.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobs(Int32 maxResultCount)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork_callback()
+   at Castle.Proxies.Invocations.BackgroundJobManager_DoWork.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork()
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+Abp.AbpException: Unknown filter name: MayHaveTenant. Be sure this filter is registered before.
+   at Abp.Domain.Uow.UnitOfWorkBase.GetFilterIndex(String filterName)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetFilterParameter(String filterName, String parameterName, Object value)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetTenantId(Nullable`1 tenantId, Boolean switchMustHaveTenantEnableDisable)
+   at Abp.Domain.Uow.UnitOfWorkBase.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkManager.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobs(Int32 maxResultCount)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork_callback()
+   at Castle.Proxies.Invocations.BackgroundJobManager_DoWork.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork()
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+WARN  2021-10-05 10:53:46,349 [11   ] Abp.BackgroundJobs.BackgroundJobManager  - Abp.AbpException: Unknown filter name: MayHaveTenant. Be sure this filter is registered before.
+   at Abp.Domain.Uow.UnitOfWorkBase.GetFilterIndex(String filterName)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetFilterParameter(String filterName, String parameterName, Object value)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetTenantId(Nullable`1 tenantId, Boolean switchMustHaveTenantEnableDisable)
+   at Abp.Domain.Uow.UnitOfWorkBase.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkManager.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobs(Int32 maxResultCount)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork_callback()
+   at Castle.Proxies.Invocations.BackgroundJobManager_DoWork.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork()
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+Abp.AbpException: Unknown filter name: MayHaveTenant. Be sure this filter is registered before.
+   at Abp.Domain.Uow.UnitOfWorkBase.GetFilterIndex(String filterName)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetFilterParameter(String filterName, String parameterName, Object value)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetTenantId(Nullable`1 tenantId, Boolean switchMustHaveTenantEnableDisable)
+   at Abp.Domain.Uow.UnitOfWorkBase.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkManager.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobs(Int32 maxResultCount)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork_callback()
+   at Castle.Proxies.Invocations.BackgroundJobManager_DoWork.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork()
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+WARN  2021-10-05 10:53:51,352 [10   ] Abp.BackgroundJobs.BackgroundJobManager  - Abp.AbpException: Unknown filter name: MayHaveTenant. Be sure this filter is registered before.
+   at Abp.Domain.Uow.UnitOfWorkBase.GetFilterIndex(String filterName)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetFilterParameter(String filterName, String parameterName, Object value)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetTenantId(Nullable`1 tenantId, Boolean switchMustHaveTenantEnableDisable)
+   at Abp.Domain.Uow.UnitOfWorkBase.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkManager.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobs(Int32 maxResultCount)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork_callback()
+   at Castle.Proxies.Invocations.BackgroundJobManager_DoWork.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork()
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+Abp.AbpException: Unknown filter name: MayHaveTenant. Be sure this filter is registered before.
+   at Abp.Domain.Uow.UnitOfWorkBase.GetFilterIndex(String filterName)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetFilterParameter(String filterName, String parameterName, Object value)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetTenantId(Nullable`1 tenantId, Boolean switchMustHaveTenantEnableDisable)
+   at Abp.Domain.Uow.UnitOfWorkBase.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkManager.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobs(Int32 maxResultCount)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork_callback()
+   at Castle.Proxies.Invocations.BackgroundJobManager_DoWork.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork()
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+WARN  2021-10-05 10:53:56,361 [4    ] Abp.BackgroundJobs.BackgroundJobManager  - Abp.AbpException: Unknown filter name: MayHaveTenant. Be sure this filter is registered before.
+   at Abp.Domain.Uow.UnitOfWorkBase.GetFilterIndex(String filterName)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetFilterParameter(String filterName, String parameterName, Object value)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetTenantId(Nullable`1 tenantId, Boolean switchMustHaveTenantEnableDisable)
+   at Abp.Domain.Uow.UnitOfWorkBase.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkManager.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobs(Int32 maxResultCount)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork_callback()
+   at Castle.Proxies.Invocations.BackgroundJobManager_DoWork.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork()
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+Abp.AbpException: Unknown filter name: MayHaveTenant. Be sure this filter is registered before.
+   at Abp.Domain.Uow.UnitOfWorkBase.GetFilterIndex(String filterName)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetFilterParameter(String filterName, String parameterName, Object value)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetTenantId(Nullable`1 tenantId, Boolean switchMustHaveTenantEnableDisable)
+   at Abp.Domain.Uow.UnitOfWorkBase.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkManager.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobs(Int32 maxResultCount)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork_callback()
+   at Castle.Proxies.Invocations.BackgroundJobManager_DoWork.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork()
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+WARN  2021-10-05 10:54:01,365 [4    ] Abp.BackgroundJobs.BackgroundJobManager  - Abp.AbpException: Unknown filter name: MayHaveTenant. Be sure this filter is registered before.
+   at Abp.Domain.Uow.UnitOfWorkBase.GetFilterIndex(String filterName)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetFilterParameter(String filterName, String parameterName, Object value)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetTenantId(Nullable`1 tenantId, Boolean switchMustHaveTenantEnableDisable)
+   at Abp.Domain.Uow.UnitOfWorkBase.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkManager.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobs(Int32 maxResultCount)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork_callback()
+   at Castle.Proxies.Invocations.BackgroundJobManager_DoWork.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork()
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+Abp.AbpException: Unknown filter name: MayHaveTenant. Be sure this filter is registered before.
+   at Abp.Domain.Uow.UnitOfWorkBase.GetFilterIndex(String filterName)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetFilterParameter(String filterName, String parameterName, Object value)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetTenantId(Nullable`1 tenantId, Boolean switchMustHaveTenantEnableDisable)
+   at Abp.Domain.Uow.UnitOfWorkBase.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkManager.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobs(Int32 maxResultCount)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork_callback()
+   at Castle.Proxies.Invocations.BackgroundJobManager_DoWork.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork()
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+WARN  2021-10-05 10:54:06,382 [4    ] Abp.BackgroundJobs.BackgroundJobManager  - Abp.AbpException: Unknown filter name: MayHaveTenant. Be sure this filter is registered before.
+   at Abp.Domain.Uow.UnitOfWorkBase.GetFilterIndex(String filterName)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetFilterParameter(String filterName, String parameterName, Object value)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetTenantId(Nullable`1 tenantId, Boolean switchMustHaveTenantEnableDisable)
+   at Abp.Domain.Uow.UnitOfWorkBase.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkManager.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobs(Int32 maxResultCount)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork_callback()
+   at Castle.Proxies.Invocations.BackgroundJobManager_DoWork.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork()
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+Abp.AbpException: Unknown filter name: MayHaveTenant. Be sure this filter is registered before.
+   at Abp.Domain.Uow.UnitOfWorkBase.GetFilterIndex(String filterName)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetFilterParameter(String filterName, String parameterName, Object value)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetTenantId(Nullable`1 tenantId, Boolean switchMustHaveTenantEnableDisable)
+   at Abp.Domain.Uow.UnitOfWorkBase.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkManager.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobs(Int32 maxResultCount)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork_callback()
+   at Castle.Proxies.Invocations.BackgroundJobManager_DoWork.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork()
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+WARN  2021-10-05 10:54:11,396 [4    ] Abp.BackgroundJobs.BackgroundJobManager  - Abp.AbpException: Unknown filter name: MayHaveTenant. Be sure this filter is registered before.
+   at Abp.Domain.Uow.UnitOfWorkBase.GetFilterIndex(String filterName)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetFilterParameter(String filterName, String parameterName, Object value)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetTenantId(Nullable`1 tenantId, Boolean switchMustHaveTenantEnableDisable)
+   at Abp.Domain.Uow.UnitOfWorkBase.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkManager.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobs(Int32 maxResultCount)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork_callback()
+   at Castle.Proxies.Invocations.BackgroundJobManager_DoWork.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork()
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+Abp.AbpException: Unknown filter name: MayHaveTenant. Be sure this filter is registered before.
+   at Abp.Domain.Uow.UnitOfWorkBase.GetFilterIndex(String filterName)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetFilterParameter(String filterName, String parameterName, Object value)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetTenantId(Nullable`1 tenantId, Boolean switchMustHaveTenantEnableDisable)
+   at Abp.Domain.Uow.UnitOfWorkBase.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkManager.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobs(Int32 maxResultCount)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork_callback()
+   at Castle.Proxies.Invocations.BackgroundJobManager_DoWork.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork()
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+WARN  2021-10-05 10:54:16,402 [4    ] Abp.BackgroundJobs.BackgroundJobManager  - Abp.AbpException: Unknown filter name: MayHaveTenant. Be sure this filter is registered before.
+   at Abp.Domain.Uow.UnitOfWorkBase.GetFilterIndex(String filterName)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetFilterParameter(String filterName, String parameterName, Object value)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetTenantId(Nullable`1 tenantId, Boolean switchMustHaveTenantEnableDisable)
+   at Abp.Domain.Uow.UnitOfWorkBase.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkManager.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobs(Int32 maxResultCount)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork_callback()
+   at Castle.Proxies.Invocations.BackgroundJobManager_DoWork.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork()
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+Abp.AbpException: Unknown filter name: MayHaveTenant. Be sure this filter is registered before.
+   at Abp.Domain.Uow.UnitOfWorkBase.GetFilterIndex(String filterName)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetFilterParameter(String filterName, String parameterName, Object value)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetTenantId(Nullable`1 tenantId, Boolean switchMustHaveTenantEnableDisable)
+   at Abp.Domain.Uow.UnitOfWorkBase.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkManager.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobs(Int32 maxResultCount)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork_callback()
+   at Castle.Proxies.Invocations.BackgroundJobManager_DoWork.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AsyncDeterminationInterceptor.Intercept(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork()
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+WARN  2021-10-05 10:54:21,412 [4    ] Abp.BackgroundJobs.BackgroundJobManager  - Abp.AbpException: Unknown filter name: MayHaveTenant. Be sure this filter is registered before.
+   at Abp.Domain.Uow.UnitOfWorkBase.GetFilterIndex(String filterName)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetFilterParameter(String filterName, String parameterName, Object value)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetTenantId(Nullable`1 tenantId, Boolean switchMustHaveTenantEnableDisable)
+   at Abp.Domain.Uow.UnitOfWorkBase.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkManager.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobs(Int32 maxResultCount)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork_callback()
+   at Castle.Proxies.Invocations.BackgroundJobManager_DoWork.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork()
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+Abp.AbpException: Unknown filter name: MayHaveTenant. Be sure this filter is registered before.
+   at Abp.Domain.Uow.UnitOfWorkBase.GetFilterIndex(String filterName)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetFilterParameter(String filterName, String parameterName, Object value)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetTenantId(Nullable`1 tenantId, Boolean switchMustHaveTenantEnableDisable)
+   at Abp.Domain.Uow.UnitOfWorkBase.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkManager.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobs(Int32 maxResultCount)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork_callback()
+   at Castle.Proxies.Invocations.BackgroundJobManager_DoWork.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork()
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+WARN  2021-10-05 10:54:26,428 [4    ] Abp.BackgroundJobs.BackgroundJobManager  - Abp.AbpException: Unknown filter name: MayHaveTenant. Be sure this filter is registered before.
+   at Abp.Domain.Uow.UnitOfWorkBase.GetFilterIndex(String filterName)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetFilterParameter(String filterName, String parameterName, Object value)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetTenantId(Nullable`1 tenantId, Boolean switchMustHaveTenantEnableDisable)
+   at Abp.Domain.Uow.UnitOfWorkBase.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkManager.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobs(Int32 maxResultCount)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork_callback()
+   at Castle.Proxies.Invocations.BackgroundJobManager_DoWork.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork()
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+Abp.AbpException: Unknown filter name: MayHaveTenant. Be sure this filter is registered before.
+   at Abp.Domain.Uow.UnitOfWorkBase.GetFilterIndex(String filterName)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetFilterParameter(String filterName, String parameterName, Object value)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetTenantId(Nullable`1 tenantId, Boolean switchMustHaveTenantEnableDisable)
+   at Abp.Domain.Uow.UnitOfWorkBase.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkManager.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobs(Int32 maxResultCount)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork_callback()
+   at Castle.Proxies.Invocations.BackgroundJobManager_DoWork.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork()
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+WARN  2021-10-05 10:54:31,441 [10   ] Abp.BackgroundJobs.BackgroundJobManager  - Abp.AbpException: Unknown filter name: MayHaveTenant. Be sure this filter is registered before.
+   at Abp.Domain.Uow.UnitOfWorkBase.GetFilterIndex(String filterName)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetFilterParameter(String filterName, String parameterName, Object value)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetTenantId(Nullable`1 tenantId, Boolean switchMustHaveTenantEnableDisable)
+   at Abp.Domain.Uow.UnitOfWorkBase.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkManager.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobs(Int32 maxResultCount)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork_callback()
+   at Castle.Proxies.Invocations.BackgroundJobManager_DoWork.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork()
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+Abp.AbpException: Unknown filter name: MayHaveTenant. Be sure this filter is registered before.
+   at Abp.Domain.Uow.UnitOfWorkBase.GetFilterIndex(String filterName)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetFilterParameter(String filterName, String parameterName, Object value)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetTenantId(Nullable`1 tenantId, Boolean switchMustHaveTenantEnableDisable)
+   at Abp.Domain.Uow.UnitOfWorkBase.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkManager.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobs(Int32 maxResultCount)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork_callback()
+   at Castle.Proxies.Invocations.BackgroundJobManager_DoWork.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork()
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+WARN  2021-10-05 10:54:36,457 [10   ] Abp.BackgroundJobs.BackgroundJobManager  - Abp.AbpException: Unknown filter name: MayHaveTenant. Be sure this filter is registered before.
+   at Abp.Domain.Uow.UnitOfWorkBase.GetFilterIndex(String filterName)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetFilterParameter(String filterName, String parameterName, Object value)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetTenantId(Nullable`1 tenantId, Boolean switchMustHaveTenantEnableDisable)
+   at Abp.Domain.Uow.UnitOfWorkBase.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkManager.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobs(Int32 maxResultCount)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork_callback()
+   at Castle.Proxies.Invocations.BackgroundJobManager_DoWork.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork()
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+Abp.AbpException: Unknown filter name: MayHaveTenant. Be sure this filter is registered before.
+   at Abp.Domain.Uow.UnitOfWorkBase.GetFilterIndex(String filterName)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetFilterParameter(String filterName, String parameterName, Object value)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetTenantId(Nullable`1 tenantId, Boolean switchMustHaveTenantEnableDisable)
+   at Abp.Domain.Uow.UnitOfWorkBase.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkManager.Begin(UnitOfWorkOptions options)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InterceptSynchronous(IInvocation invocation)
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobs(Int32 maxResultCount)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork_callback()
+   at Castle.Proxies.Invocations.BackgroundJobManager_DoWork.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobManagerProxy.DoWork()
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
